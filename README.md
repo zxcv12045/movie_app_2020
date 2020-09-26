@@ -3,6 +3,11 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 09월 25일
+>1. 이미지를 받을 땐 import 사용
+>2. 이미지에 alt 속성 추가
+>3. map 함수 활용
+
 ## 09월 18일
 >1. 컴포넌트가 무엇인지 알아보고, JSX를 학습.
 >2. JSX는 단지 HTML과 자바스크립트를 조합한 문법이다.
