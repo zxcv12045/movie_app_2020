@@ -3,6 +3,27 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 10월 07일
+>1. prop-types 사용하기
+>2. state로 숫자 증감 기능 만들기 
+>>* state는 동적 데이터를 다룰 때 사용 <br>
+>>* props는 동적 데이터를 다루지 못함
+>3. App클래스가 React.Component 클래스를 상속 받게 하기
+>>* extends React.Component 붙이기 <br>
+>>* App 클래스는 리액트가 제공하는 Component 클래스를 반드시 상속받아야 함
+>4. render() 함수 사용하기
+>>* 클래스형 컴포넌트에서 JSX를 반환하기 위해 render() 함수를 사용
+>5. state 정의하기
+>>* state는 객체 형태의 데이터 <br>
+>>* state를 사용하려면 반드시 클래스형 컴포넌트 안에서 소문자로 적어야 함
+>6. state에 count값 추가하고 사용하기
+>>* render() 함수에서 {this.state.count}를 출력
+>7. 버튼을 눌러서 count state값 변경해보기
+>8. setState()함수로 count state 변경하기
+>9. state의 변화에 따라 바뀌는 html 살펴보기
+>10. add(), minus() 함수 개선하기
+>>* current 사용
+
 ## 09월 25일
 >1. 이미지를 받을 땐 import 사용
 >2. 이미지에 alt 속성 추가
