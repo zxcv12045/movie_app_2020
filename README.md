@@ -3,6 +3,17 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 10월 16일
+>1. constructor() 함수 알아보기
+>2. componentDidMount() 함수 알아보기
+>3. componentDidUpdate() 함수 알아보기
+>4. componentWillUnmount() 함수 알아보기
+>5. isLoading state 추가
+>>* 앱이 실행(mount)되는 초기에는 무조건 로딩 상태이기 때문에 값은 true
+>6. 로딩 현상 구현하기
+>>* componentDidMount()함수의 첫번째 인자로 setTimeout() 함수를 전달, 두번째 인자로 시간을 전달
+>>* isLoading을 강제로 false로 바꿈
+
 ## 10월 07일
 >1. prop-types 사용하기
 >2. state로 숫자 증감 기능 만들기 
