@@ -3,6 +3,22 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 10월 30일
+>1. movies state에 영화 데이터 저장하기
+>>* this.setState({movies})로 작성
+>2. isLoading state를 true에서 false로 업데이트하기
+>>* 처음에는 Loading이 화면에 나타나다가 조금 시간이 지나면 movies state 출력
+>3. Movie 컴포넌트 만들기
+>>* state가 필요하지 않으므로 함수형 컴포넌트로 작성
+>>* Movie에 넘어와야 하는 영화 데이터를 정의하고, 관리하기 위해 prop-types를 사용
+>4. Movie.propTypes 작성하기
+>>* ex) id: PropType.number.isRequired
+>5. axios.get() 수정하기
+>>* axios.get()에 yts-proxy.now.sh/list_movies.json?sort_by=rating 전달
+>6. Movie 컴포넌트를 반환하도록 movies.map() 수정하기
+>>* Movie 컴포넌트를 import한 다음, movies.map()에 전달한 함수가 <Movie / >를 반환
+
+
 ## 10월 16일
 >1. constructor() 함수 알아보기
 >2. componentDidMount() 함수 알아보기
