@@ -3,6 +3,19 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 11월 06일
+>1. App컴포넌트에 HTML추가하기
+>2. Movie컴포넌트에 HTML추가하기
+>3. 영화 포스터 이미지 추가하기
+>>* img tag를 그 아래 추가해서 src속성에는 poster props를, alt속성에는 title props를 전달
+>4. App.css, Movie.css 생성하기
+>5. Movie 컴포넌트에 genres props 넘겨주기
+>6. class 속성 이름 className으로 바꿔주기
+>>* HTML의 class와 자바스크립트의 class라는 이름이 겹치면 리액트가 혼란스러울 수 있기 때문
+>7. 영화 장르 출력하기
+>>* genres props가 배열이므로 map() 함수 사용
+>8. li tag에 key props 추가하기
+
 ## 10월 30일
 >1. movies state에 영화 데이터 저장하기
 >>* this.setState({movies})로 작성
