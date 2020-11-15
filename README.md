@@ -3,6 +3,20 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 11월 13일
+>1. 영화 앱 다듬기
+>2. react-router-dom 설치하기
+>3. Home.js 수정하기
+>>* App.js의 코드를 Home.js로 복사
+>4. HashRouter와 Route컴포넌트
+>>* HashRouter 컴포넌트가 Route 컴포넌트를 감싸 반환하도록 App.js를 수정
+>5. Route 컴포넌트에 path, component props 추가하기
+>6. Home 컴포넌트를 위한 Route 컴포넌트 추가하기
+>>* 서버에 접속하면 Home 컴포넌트를 기본으로 보여주기 위해 path props를 "/"으로 입력
+>7. Route 컴포넌트에 exact props 추가하기
+>>* path props가 "/"인 Route 컴포넌트에 exact={true} 추가
+>>* "/"가 정확히 일치할 때만 Home 컴포넌트가 출력되도록 함
+
 ## 11월 06일
 >1. App컴포넌트에 HTML추가하기
 >2. Movie컴포넌트에 HTML추가하기
