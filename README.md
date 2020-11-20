@@ -3,6 +3,60 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 11월 13일
+>1. 영화 앱 다듬기
+>2. react-router-dom 설치하기
+>3. Home.js 수정하기
+>>* App.js의 코드를 Home.js로 복사
+>4. HashRouter와 Route컴포넌트
+>>* HashRouter 컴포넌트가 Route 컴포넌트를 감싸 반환하도록 App.js를 수정
+>5. Route 컴포넌트에 path, component props 추가하기
+>6. Home 컴포넌트를 위한 Route 컴포넌트 추가하기
+>>* 서버에 접속하면 Home 컴포넌트를 기본으로 보여주기 위해 path props를 "/"으로 입력
+>7. Route 컴포넌트에 exact props 추가하기
+>>* path props가 "/"인 Route 컴포넌트에 exact={true} 추가
+>>* "/"가 정확히 일치할 때만 Home 컴포넌트가 출력되도록 함
+
+## 11월 06일
+>1. App컴포넌트에 HTML추가하기
+>2. Movie컴포넌트에 HTML추가하기
+>3. 영화 포스터 이미지 추가하기
+>>* img tag를 그 아래 추가해서 src속성에는 poster props를, alt속성에는 title props를 전달
+>4. App.css, Movie.css 생성하기
+>5. Movie 컴포넌트에 genres props 넘겨주기
+>6. class 속성 이름 className으로 바꿔주기
+>>* HTML의 class와 자바스크립트의 class라는 이름이 겹치면 리액트가 혼란스러울 수 있기 때문
+>7. 영화 장르 출력하기
+>>* genres props가 배열이므로 map() 함수 사용
+>8. li tag에 key props 추가하기
+
+## 10월 30일
+>1. movies state에 영화 데이터 저장하기
+>>* this.setState({movies})로 작성
+>2. isLoading state를 true에서 false로 업데이트하기
+>>* 처음에는 Loading이 화면에 나타나다가 조금 시간이 지나면 movies state 출력
+>3. Movie 컴포넌트 만들기
+>>* state가 필요하지 않으므로 함수형 컴포넌트로 작성
+>>* Movie에 넘어와야 하는 영화 데이터를 정의하고, 관리하기 위해 prop-types를 사용
+>4. Movie.propTypes 작성하기
+>>* ex) id: PropType.number.isRequired
+>5. axios.get() 수정하기
+>>* axios.get()에 yts-proxy.now.sh/list_movies.json?sort_by=rating 전달
+>6. Movie 컴포넌트를 반환하도록 movies.map() 수정하기
+>>* Movie 컴포넌트를 import한 다음, movies.map()에 전달한 함수가 <Movie / >를 반환
+
+
+## 10월 16일
+>1. constructor() 함수 알아보기
+>2. componentDidMount() 함수 알아보기
+>3. componentDidUpdate() 함수 알아보기
+>4. componentWillUnmount() 함수 알아보기
+>5. isLoading state 추가
+>>* 앱이 실행(mount)되는 초기에는 무조건 로딩 상태이기 때문에 값은 true
+>6. 로딩 현상 구현하기
+>>* componentDidMount()함수의 첫번째 인자로 setTimeout() 함수를 전달, 두번째 인자로 시간을 전달
+>>* isLoading을 강제로 false로 바꿈
+
 ## 10월 07일
 >1. prop-types 사용하기
 >2. state로 숫자 증감 기능 만들기 
