@@ -3,6 +3,28 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 11월 20일
+>1. Navigation 컴포넌트 App 컴포넌트에 포함 시키기
+>>* App 컴포넌트에 Navigation을 import시키고, HashRoute에서 불러오게 한다
+>2. a 태그 Link 컴포넌트로 바꾸기
+>3. Navigation 컴포넌트 위치 다시 확인하기
+>>* HashRouter 바깥에 위치했던 Navigation 컴포넌트를 안쪽으로 이동
+>4. Movie 컴포넌트에 Link 컴포넌트 추가하기 
+>>* 이제 영화 카드를 누르면 /movie-datail로 이동
+>5. Detail 컴포넌트 만들고 Route 컴포넌트 추가하기
+>6. Detail 컴포넌트 함수형에서 클래스형 컴포넌트로 변경하기
+>7. push() 함수 사용하기
+>>* location.state가 undefined인 경우 history.push("/")
+>8. location.state 확인하기
+>>* location.state가 없으면 render() 함수가 null을 반환하도록 수정
+>9. 영화 앱 깃허브에 배포하기
+>>* package.json 파일 수정 -> browserslist키 아래에 homepage키 추가
+>>* scripts 키값으로 predeploy, deploy에 명령어 추가
+>>* gh -page 설치
+>>* https://[깃허브 계정].github.io/[저장소 이름]
+
+
+
 ## 11월 13일
 >1. 영화 앱 다듬기
 >2. react-router-dom 설치하기
