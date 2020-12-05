@@ -3,6 +3,17 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020
 
+## 12월 1일- cdn
+>1. 간단한 컴포넌트
+>>* XML과 유사한 문법인 JSX를 사용
+>>* 컴포넌트로 전달된 데이터는 render() 안에서 this.props를 통해 접근 가능
+>2. 상태를 가지는 컴포넌트
+>>* this.props나 this.state로 내부적인 상태 데이터를 가질 수 있음
+>>* 컴포넌트의 상태 데이터가 바뀌면 render()가 다시 호출되어 마크업이 갱신됨
+>3. 애플리케이션
+>>* props와 state를 사용
+>>* state를 사용해 사용자가 입력한 텍스트와 할 일 목록을 관리
+
 ## 11월 20일
 >1. Navigation 컴포넌트 App 컴포넌트에 포함 시키기
 >>* App 컴포넌트에 Navigation을 import시키고, HashRoute에서 불러오게 한다
